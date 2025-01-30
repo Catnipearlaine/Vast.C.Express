@@ -1,0 +1,88 @@
+.SoundControl {
+  width: clamp(300px, 50vw, 450px);
+  height: clamp(300px, 50vh, 450px);
+  position: absolute;
+  left: 62vw;
+  bottom: 5px;
+  z-index: 6;
+
+  .CatHp {
+    width: clamp(300px, 20vw, 400px);
+    height: clamp(400px, 40vh, 500px);
+    position: absolute;
+    left: 137.93px;
+    top: 0;
+    transform-origin: 0 0;
+    .Headphone {
+      width: 282px;
+      height: 277px;
+      position: absolute;
+      left: 30.35px;
+      top: 2.47px;
+      transform: rotate(10.97deg);
+      transform-origin: 0 0;
+      transition: opacity 0.3s ease-in-out;
+      &.hidden {
+        opacity: 0;
+        visibility: hidden;
+      }
+    }
+
+    .Cat {
+      width: 176.93px;
+      height: 333.55px;
+      position: absolute;
+      left: 73.14px;
+      top: 75.18px;
+      transform: rotate(4.66deg);
+      transform-origin: 0 0;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      .PinkCat {
+        object-fit: cover;
+        width: 100%; 
+        height: 100%; 
+      }
+    }
+  }
+
+  .SoundButton {
+    width: 158px;
+    position: absolute;
+    left: 43px;
+    top: 353.18px;
+    color: #f784ad;
+    font-size: 32px;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 700;
+    line-height: 38.4px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    &.sound-off {
+      color: #9dc5e0;
+    }
+
+    &:hover {
+      font-style: italic;
+    }
+  }
+
+  .HeadphoneIcon {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 0;
+    top: 353.18px;
+    opacity: 0;
+    visibility: hidden;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s ease-in-out;
+
+    &.visible {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+}

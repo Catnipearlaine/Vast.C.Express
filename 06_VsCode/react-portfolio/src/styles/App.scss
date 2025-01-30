@@ -1,0 +1,19 @@
+@import 'animate.css';
+@import './variables';
+@import './mixins';
+@import './layout';
+@import './components';
+
+input,
+textarea {
+  font-family: 'Urbanist';
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+
+  height: 100%;
+}
+

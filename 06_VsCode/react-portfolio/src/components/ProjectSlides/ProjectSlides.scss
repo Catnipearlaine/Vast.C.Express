@@ -1,0 +1,123 @@
+.ProjectSlides {
+  width: calc(64vw - 101px);
+  height: 90%;
+  padding-left: 36vw;
+  left: 101px;
+  top: 10vh;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 22vw;
+  display: flex;
+  overflow: hidden;
+  scroll-behavior: smooth;
+
+  /* Optional: Add custom scrolling for mobile */
+  -webkit-overflow-scrolling: touch;
+}
+
+.ProjectSlides a {
+  display: block; 
+  width: auto; 
+  height: auto; 
+  z-index: 2;
+}
+
+.ProjectSlides::after {
+  content: '';
+  width: 12vw;
+  height: 90%;
+  flex-shrink: 0;
+}
+
+.Egg11 {
+  object-fit: contain;
+  max-width: 30vw;
+  max-height: 62vh;
+  /*
+  width: 417px;
+ /* height: 556px;
+ /* width: 65%;
+  height: 75%;*/
+  z-index: 2;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.Egg11:hover {
+  transform: scale(1.08); /* Zoom in slightly (5% larger) */
+}
+
+.Pj2 {
+  object-fit: contain;
+  max-width: 30vw;
+  max-height: 46vh;
+  padding-top: 10vh;
+  /* width: 40%;
+  height: 40%;*/
+  z-index: 2;
+  transition: transform 0.3s ease;
+}
+
+.Pj2:hover {
+  transform: scale(1.08); /* Zoom in slightly (8% larger) */
+}
+
+.Pj3 {
+  object-fit: contain;
+  max-width: 30vw;
+  max-height: 46vh;
+  padding-top: 8vh;
+  /* width: 40%;
+  height: 40%;*/
+  z-index: 2;
+  transition: transform 0.3s ease;
+}
+
+.Pj3:hover {
+  transform: scale(1.08); /* Zoom in slightly (8% larger) */
+}
+
+.Pj4 {
+  object-fit: contain;
+  max-width: 30vw;
+  max-height: 62vh;
+  padding-top: 8vh;
+  /* width: 40%;
+  height: 40%;*/
+  z-index: 2;
+  transition: transform 0.3s ease;
+}
+
+.Pj4:hover {
+  transform: scale(1.08); /* Zoom in slightly (8% larger) */
+}
+
+.Pj5 {
+  object-fit: contain;
+  max-width: 30vw;
+  max-height: 62vh;
+  padding-top: 8vh;
+  /* width: 40%;
+  height: 40%;*/
+  z-index: 2;
+  transition: transform 0.3s ease;
+}
+
+.Pj5:hover {
+  transform: scale(1.08); /* Zoom in slightly (8% larger) */
+}
+
+.Pj {
+  object-fit: contain;
+  max-width: 30vw;
+  max-height: 62vh;
+  /* width: 40%;
+  height: 40%;*/
+  z-index: 2;
+  transition: transform 0.3s ease;
+}
+
+.Pj:hover {
+  transform: scale(1.08); /* Zoom in slightly (8% larger) */
+}

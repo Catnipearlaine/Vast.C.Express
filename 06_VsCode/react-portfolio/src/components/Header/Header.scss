@@ -1,0 +1,91 @@
+.TopRightMenu {
+  width: 15vw;
+  position: absolute;
+  right: 20px;
+  top: 5vh;
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 28px;
+  z-index: 21;
+
+  .MenuItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3vh;
+    z-index: 21;
+    cursor: pointer;
+    &.Project {
+      width: 6vw;
+    }
+    span {
+      position: relative;
+      display: block;
+      transition: transform 0.5s ease;
+    }
+  }
+
+  .nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #b8d9ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.1s ease-in-out;
+    z-index: 15;
+    &.active {
+      opacity: 1;
+      visibility: visible;
+    }
+    ul {
+      list-style: none;
+      text-align: center;
+      padding: 0;
+      margin: 0;
+
+      li {
+        margin: 20px 0;
+
+        a {
+          text-decoration: none;
+          font-size: 64px;
+          font-family: urbanist;
+          font-weight: bold;
+          color: white;
+          transition: color 0.3s ease-in-out;
+
+          &:hover {
+            text-decoration-line: underline;
+            text-decoration-color: #ffb8d1;
+          }
+        }
+      }
+    }
+  }
+
+  .MenuItem.Contact {
+    width: 10vw; /* Dynamic width */
+    padding-right: 8px;
+    justify-content: flex-start;
+  }
+
+  .Label {
+    color: #ffffff;
+    font-size: clamp(24px, 4vw, 32px); /* Responsive font-size */
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 700;
+    line-height: 4vh;
+    word-wrap: break-word;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

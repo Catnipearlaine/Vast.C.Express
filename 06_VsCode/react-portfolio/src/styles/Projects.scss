@@ -1,0 +1,570 @@
+.Project1 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 101px;
+  height: 100%;
+  width: calc(100% - 101px);
+}
+.BackgroundOverlay {
+  position: relative;
+  left: -300px;
+  top: -200px;
+  width: 80%;
+}
+.Project3MainImageDiv {
+  min-width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  background-image: url('../assets/Project3/01_Cover_Screenshot_2.jpg');
+  background-position: right;
+  background-size: cover;
+  z-index: 1;
+}
+
+.Project4MainImageDiv {
+  min-width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  background-image: url('../assets/Project4/01_Cover_Screenshot_1.png');
+  background-position: left;
+  background-size: cover;
+  z-index: 1;
+}
+
+.Project5MainImageDiv {
+  min-width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  background-image: url('../assets/Project5/cover.gif');
+  background-position: left;
+  background-size: cover;
+  z-index: 1;
+}
+
+.ProjectMainImageDiv img {
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.ProjectMainImageDiv video {
+  width: 100%;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.ProjectTDdemo video {
+  width: 50%;
+  display: block;
+  margin: auto;
+  z-index: 1;
+}
+.ProjectCubeDemo video {
+  width: 90%;
+  display: block;
+  margin: auto;
+  z-index: 1;
+}
+
+.Project1ImageContainer {
+  display: flex;
+  justify-content: center;
+  left: 101px;
+  max-width: 100%;
+  z-index: 1;
+}
+
+.Project1ImageContainer img {
+  max-width: 33.3%;
+  z-index: 1;
+  object-fit: contain;
+}
+
+.Project1ImageContainer video {
+  max-width: 33.3%;
+  z-index: 1;
+  object-fit: contain;
+}
+
+.Project1Context {
+  position: absolute;
+  display: flex;
+  justify-content: left;
+  width: 100%;
+  z-index: 1;
+}
+
+.Project1Header {
+  position: absolute;
+  display: flex;
+  margin-top: 11vh;
+  margin-left: 8vh;
+  flex-direction: column;
+  align-items: left;
+  gap: 2vh;
+  width: 55%;
+}
+
+.ProjectDescription {
+  margin: 8vh;
+  margin-left: 13vw;
+  margin-right: 15vh;
+  gap: 6vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  color: var(--Black, #212429);
+  text-overflow: ellipsis;
+  font-family: Urbanist;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 28.8px */
+  letter-spacing: 0px;
+}
+
+.ProjectBriefGuide {
+  margin-left: 13vw;
+  margin-right: 15vh;
+  gap: 6vh;
+  display: flex;
+
+  flex-direction: row;
+  color: var(--Black, #212429);
+  text-overflow: ellipsis;
+  font-family: Urbanist;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 28.8px */
+  letter-spacing: 0px;
+}
+
+.ProjectDescriptionAbout {
+  color: #f784ad;
+  font-family: Urbanist;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 38.4px */
+  letter-spacing: 0px;
+}
+
+.ProjectBriefGuideTitle {
+  padding-top: 12%;
+  color: #f784ad;
+  font-family: Urbanist;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 38.4px */
+  letter-spacing: 0px;
+}
+
+.ProjectDescriptionText {
+  margin-right: 24vh;
+  line-height: 130%;
+}
+
+.ProjectBriefGuideImage {
+  width: 80%;
+}
+
+.ProjectBriefGuideImage img {
+  width: 100%;
+}
+
+.Details {
+  width: 100%;
+  margin-top: 8vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  color: var(--Black, #ffffff);
+  text-overflow: ellipsis;
+  font-family: Urbanist;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 28.8px */
+  letter-spacing: 0.5px;
+  background-color: #fd9dbf;
+}
+.SubText {
+  margin: 8vh;
+  margin-left: 12vh;
+  margin-right: 15vh;
+  gap: 6vh;
+}
+.Details2 {
+  font-style: italic;
+  line-height: 160%;
+}
+.highlight {
+  text-decoration: underline;
+  //text-decoration-style: wavy;
+  text-decoration-color: #b0d9ff;
+}
+.highlight2 {
+  text-decoration: underline;
+  text-decoration-color: #f784ad;
+}
+
+.gitlink {
+  color: black;
+
+  &:hover {
+    color: #f784ad; /* Color on hover */
+  }
+}
+.FullScreenProjectImage {
+  width: 100%;
+}
+
+.ExtendedProjectImage1 {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  width: 80%;
+}
+
+.ExtendedProjectImage2 {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+  width: 80%;
+}
+
+.ProjectMainHeader {
+  color: #cfddff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Urbanist;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 96px */
+  letter-spacing: -2.88px;
+}
+
+.ProjectSecondHeader {
+  color: #cfddff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Urbanist;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 38.4px */
+  letter-spacing: -0.96px;
+}
+
+.Project2MainHeader {
+  color: #3e46ff;
+  text-shadow: 4px 4px 4px #fff;
+  font-family: Urbanist;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 96px */
+  letter-spacing: -2.88px;
+}
+
+.Project2SecondHeader {
+  color: #3e46ff;
+  text-shadow: 4px 4px 4px #fff;
+  font-family: Urbanist;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 38.4px */
+  letter-spacing: -0.96px;
+}
+
+.Project4MainHeader {
+  color: #fff;
+  text-shadow: 4px 4px 4px #f784ad;
+  font-family: Urbanist;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100px; /* 104.167% */
+  letter-spacing: -2.88px;
+}
+
+.Project4SecondHeader {
+  color: #fff;
+  text-shadow: 4px 4px 4px #f784ad;
+  font-family: Urbanist;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 38.4px */
+  letter-spacing: -0.96px;
+}
+
+.ProjectLinkBorder {
+  display: inline-flex;
+  padding: 5px 15px;
+  justify-content: center;
+  align-items: center;
+
+  margin-right: 22px;
+  border-radius: 21px;
+  background: #ffb8d1;
+}
+
+.Project2LinkBorder {
+  display: inline-flex;
+  padding: 5px 15px;
+  justify-content: center;
+  align-items: center;
+
+  margin-right: 22px;
+  border-radius: 21px;
+  background: #f784ad;
+}
+
+.ProjectLink {
+  color: #fff;
+  font-family: Urbanist;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 28.8px */
+  letter-spacing: -0.72px;
+}
+
+.TrainStationScene {
+  position: relative;
+}
+
+.TrainStationNavigation {
+  position: absolute;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  gap: 25%;
+  left: 10%;
+  width: calc(90% - 101px);
+  top: 30%;
+  text-align: center;
+  z-index: 1;
+}
+
+.TrainStationNavigationRight {
+  position: absolute;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  left: 55%;
+  width: calc(45% - 101px);
+  top: 30%;
+  text-align: center;
+  z-index: 1;
+}
+
+.TrainStationNavigationRight a {
+  text-decoration: none;
+}
+
+.TrainStationNavigationLeft {
+  position: absolute;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  left: 12%;
+  width: calc(45% - 101px);
+  top: 30%;
+  text-align: center;
+  z-index: 1;
+}
+
+.TrainStationNavigationLeft a {
+  text-decoration: none;
+}
+
+.TrainStationNavigation a {
+  text-decoration: none;
+}
+
+.TrainStationNavigationLink {
+  color: #f784ad;
+  font-family: Urbanist;
+  font-size: clamp(24px, 3vw, 86px);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 57.6px */
+  letter-spacing: -1.44px;
+}
+
+.TrainStationNavigationLink:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 4px;
+}
+
+@media (max-width: 1920px) {
+  .TrainStationNavigationLink:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .TrainStationNavigationLink:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+  }
+}
+
+.projectVideosList {
+  width: calc(100% - 101px);
+  padding-left: 22vw;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  background-color: #a3a2e4;
+  margin-bottom: 6vh;
+}
+
+.projectVideosTitle {
+  margin-bottom: 1vh;
+  color: #fff;
+  font-family: Urbanist;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 38.4px */
+  letter-spacing: -0.96px;
+}
+
+.projectVideosListContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 1vw;
+}
+
+.projectVideosListContainer img {
+  width: 20%;
+}
+
+.Proj3Details {
+  margin-left: 22vw;
+  margin-right: 16vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-overflow: ellipsis;
+  font-family: Urbanist;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 28.8px */
+  letter-spacing: 0.5px;
+}
+
+.Proj3Details a {
+  margin-top: 2vh;
+  margin-bottom: 4vh;
+}
+
+.QuoteText {
+  color: var(--Black, #212429);
+  font-family: 'Schoolbell', serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.popup-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.popup-container.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.close-button {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.video-container {
+  position: relative;
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.play-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  height: 40px;
+  background-color: #4caf50;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.play-button svg {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .video-container {
+    width: 90%;
+    padding-top: 56.25%; 
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .video-container {
+    width: 700px;
+    height: 393.75px;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .video-container {
+    width: 800px;
+    height: 450px; 
+  }
+}
