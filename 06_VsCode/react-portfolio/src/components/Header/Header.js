@@ -38,24 +38,24 @@ function Header() {
             </Link>
           </li>
           <li>
-            <a href="/project2" style={{ '--i': 1 }} onClick={handleLinkClick}>
+            <Link to="/project2" style={{ '--i': 1 }} onClick={handleLinkClick}>
               Tangible Particle Imagination
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/project3" style={{ '--i': 2 }} onClick={handleLinkClick}>
+            <Link to="/project3" style={{ '--i': 2 }} onClick={handleLinkClick}>
               Plantasia
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/project4" style={{ '--i': 3 }} onClick={handleLinkClick}>
+            <Link to="/project4" style={{ '--i': 3 }} onClick={handleLinkClick}>
               Cubic Pastel Reveries
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/project5" style={{ '--i': 4 }} onClick={handleLinkClick}>
+            <Link to="/project5" style={{ '--i': 4 }} onClick={handleLinkClick}>
               Vast.C Express
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>
