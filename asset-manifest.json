@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Vast.C.Express/static/css/main.0cd83d8d.css",
-    "main.js": "/Vast.C.Express/static/js/main.8e3758e1.js",
+    "main.js": "/Vast.C.Express/static/js/main.126abfff.js",
     "static/js/488.8ae4dd49.chunk.js": "/Vast.C.Express/static/js/488.8ae4dd49.chunk.js",
     "static/media/02_Recording.mp4": "/Vast.C.Express/static/media/02_Recording.48309fb801002cd951f6.mp4",
     "static/media/06_combo2.mp4": "/Vast.C.Express/static/media/06_combo2.513f6855d910a05836fe.mp4",
@@ -52,11 +52,11 @@
     "static/media/Group_6.png": "/Vast.C.Express/static/media/Group_6.2e7e72068bf2d787af63.png",
     "index.html": "/Vast.C.Express/index.html",
     "main.0cd83d8d.css.map": "/Vast.C.Express/static/css/main.0cd83d8d.css.map",
-    "main.8e3758e1.js.map": "/Vast.C.Express/static/js/main.8e3758e1.js.map",
+    "main.126abfff.js.map": "/Vast.C.Express/static/js/main.126abfff.js.map",
     "488.8ae4dd49.chunk.js.map": "/Vast.C.Express/static/js/488.8ae4dd49.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0cd83d8d.css",
-    "static/js/main.8e3758e1.js"
+    "static/js/main.126abfff.js"
   ]
 }
