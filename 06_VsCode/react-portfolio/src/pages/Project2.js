@@ -5,7 +5,6 @@ import fullScaleImage from '../assets/Project2/02_Screenshot_2.jpg'
 import detailsImg1 from '../assets/Project2/03_bird.jpg'
 import detailsImg2 from '../assets/Project2/04_index finger.jpg'
 import detailsImg3 from '../assets/Project2/05_cup.jpg'
-import videoDemo from '../assets/Project2/06_combo2.mp4'
 import trainStation from '../assets/railway-train-station-long-shot 1.png'
 import { Link } from 'react-router-dom'
 import WhiteCircle from '../assets/Project2/Ellipse3.png'
@@ -183,9 +182,6 @@ function Project2() {
         </div>
       </div>
 
-      <div className="ProjectTDdemo">
-        <video src={videoDemo} controls type="mp4" />
-      </div>
       <br />
       <br />
       <br />

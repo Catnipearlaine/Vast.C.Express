@@ -4,7 +4,7 @@ import './SideMenu.scss'
 
 function SideMenu({ setIsNavOpen }) {
   const handleLogoClick = () => {
-    setIsNavOpen(false) 
+    setIsNavOpen(false)
   }
   return (
     <div className="SideMenu">
@@ -37,7 +37,7 @@ function SideMenu({ setIsNavOpen }) {
         <div className="Button">
           <a
             className="Label"
-            href="https://www.behance.net/catnipearlani"
+            href=""
             title="Behance"
             target="_blank"
             rel="noopener noreferrer"
